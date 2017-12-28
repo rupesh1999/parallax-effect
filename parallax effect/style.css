@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-clip: url(hi.mp4);
+
+}
+.pig1, .pig2, .pig3 {
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pig1 {
+    background-image: url("1.jpg");
+    min-height: 100%;
+    width: 100%;
+  
+}
+.pig2 {
+    background-image: url("2.jpg");
+    min-height: 40%;
+    width: 100%;
+}
+.pig3 {
+    background-image: url("3.jpg");
+    min-height: 40%;
+    width: 100%;
+}
+
+.border {
+    position: relative;
+    top: 400px;
+    text-align: center;
+    font-size: 80px;
+    font-family: Courier New, Courier, monospace;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+section {
+    text-align: center;
+    padding: 40px 80px;
+
+}
+
+.section-light{
+    background-color: rgb(201, 187, 187);
+}
+
+.section-dark{
+    background-color: rgb(73, 68, 68);
+}
